@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test1]">
+  <test thread-count="5" name="RedBusPOMFramework(failed)">
+    <classes>
+      <class name="com.redbus.qa.testpages.Homepagetest">
+        <methods>
+          <include name="testdate"/>
+          <include name="CloseApp"/>
+          <include name="generateTestStatus"/>
+          <include name="OpenApp"/>
+          <include name="getnameMethod"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="generateReports"/>
+        </methods>
+      </class> <!-- com.redbus.qa.testpages.Homepagetest -->
+    </classes>
+  </test> <!-- RedBusPOMFramework(failed) -->
+</suite> <!-- Failed suite [Test1] -->
